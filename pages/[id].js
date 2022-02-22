@@ -11,7 +11,7 @@ import Login from '../components/Login'
 import Modal from '../components/Modal'
 import Post from '../components/Post'
 import Sidebar from '../components/Sidebar'
-import Widget from '../components/WIdget'
+import Widget from '../components/Widget'
 import { db } from '../firebase'
 
 const PostPage = ({ trendingResults, followResults, providers }) => {

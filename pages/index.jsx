@@ -4,10 +4,10 @@ import Sidebar from '../components/Sidebar'
 import { getProviders, getSession, useSession } from 'next-auth/react'
 import Login from '../components/Login'
 import Modal from '../components/Modal'
-import Widget from '../components/WIdget'
+import Widget from '../components/Widget'
 export default function Home({ trendingResults, followResults, providers }) {
   const { data: session } = useSession()
-
+  console.log(trendingResults, followResults)
   if (!session) {
     return <Login providers={providers} />
   }

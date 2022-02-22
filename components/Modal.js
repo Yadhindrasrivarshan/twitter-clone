@@ -36,7 +36,6 @@ function Modal() {
       }),
     [db, postId]
   )
-  console.log(post)
   const sendComment = async (e) => {
     e.preventDefault()
 
