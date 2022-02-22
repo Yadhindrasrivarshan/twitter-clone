@@ -7,7 +7,6 @@ import Modal from '../components/Modal'
 import Widget from '../components/Widget'
 export default function Home({ trendingResults, followResults, providers }) {
   const { data: session } = useSession()
-  console.log(trendingResults, followResults)
   if (!session) {
     return <Login providers={providers} />
   }
